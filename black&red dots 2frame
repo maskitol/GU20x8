@@ -1,0 +1,57 @@
+ vfd.Begin();
+    vfd.ClearScreen() ;
+    vfd.SetBrightness(3);
+    vfd.EnableDisplay();
+
+  //   patterns:         red         blue
+    vfd.WriteColumn( 0, 0b01010101, 0b00000000);
+    vfd.WriteColumn( 1, 0b10101010, 0b00000000);
+    vfd.WriteColumn( 2, 0b01010101, 0b00000000);
+    vfd.WriteColumn( 3, 0b10101010, 0b00000000);
+    vfd.WriteColumn( 4, 0b01010101, 0b00000000);
+    vfd.WriteColumn( 5, 0b10101010, 0b00000000);
+    vfd.WriteColumn( 6, 0b01010101, 0b00000000);
+    vfd.WriteColumn( 7, 0b10101010, 0b00000000);
+    vfd.WriteColumn( 8, 0b01010101, 0b00000000);
+    vfd.WriteColumn( 9, 0b10101010, 0b00000000);
+    vfd.WriteColumn(10, 0b01010101, 0b00000000);
+    vfd.WriteColumn(11, 0b10101010, 0b00000000);
+    vfd.WriteColumn(12, 0b01010101, 0b00000000);
+    vfd.WriteColumn(13, 0b10101010, 0b00000000);
+    vfd.WriteColumn(14, 0b01010101, 0b00000000);
+    vfd.WriteColumn(15, 0b10101010, 0b00000000);
+    vfd.WriteColumn(16, 0b01010101, 0b00000000);
+    vfd.WriteColumn(17, 0b10101010, 0b00000000);
+    vfd.WriteColumn(18, 0b01010101, 0b00000000);
+    vfd.WriteColumn(19, 0b10101010, 0b00000000);
+  delay(1);
+
+ vfd.Begin();
+    vfd.ClearScreen() ;
+    vfd.SetBrightness(3);
+    vfd.EnableDisplay();
+
+  //   patterns:         red         blue
+    vfd.WriteColumn( 0, 0b10101010, 0b00000000);
+    vfd.WriteColumn( 1, 0b01010101, 0b00000000);
+    vfd.WriteColumn( 2, 0b10101010, 0b00000000);
+    vfd.WriteColumn( 3, 0b01010101, 0b00000000);
+    vfd.WriteColumn( 4, 0b10101010, 0b00000000);
+    vfd.WriteColumn( 5, 0b01010101, 0b00000000);
+    vfd.WriteColumn( 6, 0b10101010, 0b00000000);
+    vfd.WriteColumn( 7, 0b01010101, 0b00000000);
+    vfd.WriteColumn( 8, 0b10101010, 0b00000000);
+    vfd.WriteColumn( 9, 0b01010101, 0b00000000);
+    vfd.WriteColumn(10, 0b10101010, 0b00000000);
+    vfd.WriteColumn(11, 0b01010101, 0b00000000);
+    vfd.WriteColumn(12, 0b10101010, 0b00000000);
+    vfd.WriteColumn(13, 0b01010101, 0b00000000);
+    vfd.WriteColumn(14, 0b10101010, 0b00000000);
+    vfd.WriteColumn(15, 0b01010101, 0b00000000);
+    vfd.WriteColumn(16, 0b10101010, 0b00000000);
+    vfd.WriteColumn(17, 0b01010101, 0b00000000);
+    vfd.WriteColumn(18, 0b10101010, 0b00000000);
+    vfd.WriteColumn(19, 0b01010101, 0b00000000);
+  delay(1);
+
+  
